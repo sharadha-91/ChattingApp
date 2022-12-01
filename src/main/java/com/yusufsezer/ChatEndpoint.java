@@ -9,6 +9,8 @@ import javax.websocket.OnMessage;
 import javax.websocket.Session;
 import javax.websocket.server.ServerEndpoint;
 
+//Give this command in cmd to check whether chat application is working on other system
+//C:\Users\chelk\Downloads\ngrok-v3-stable-windows-amd64>ngrok http 8013 
 @ServerEndpoint(
         value = "/chat",
         decoders = MessageDecoder.class,
